@@ -132,17 +132,12 @@ footer {
 @media screen and (min-width: 480px) and (max-width: 900px) {
 
 	ul#topnav li a {
-		color: #000;
-		text-decoration: none;
 		padding: 20px;
 	}
 
 	#logo {
 		margin-left: 40%;
 		margin-right: 45%;
-		width: 158px;
-		height: 158px;
-		background-image: url('../images/logo.png');
 	}
 
 	header {
@@ -259,8 +254,6 @@ footer {
 	.subNav {
 		max-width: 30%;
 		height: 10%;
-		border-radius: 10px;
-		background-color: #d3d3d3;
 		margin-top: 40%;
 		margin-bottom: 10%;
 		margin-left: 2.5%;
@@ -272,9 +265,6 @@ footer {
 	footer {
 		width: 100%;
 		float:right;
-		text-align: center;
-		background-color: #fff;
-		color:#d3d3d3;
 	}
 	
 
@@ -408,12 +398,9 @@ footer {
 	.subNav {
 		max-width: 30%;
 		height: 10%;
-		border-radius: 10px;
-		background-color: #d3d3d3;
 		margin-top: 40%;
 		margin-bottom: 10%;
 		margin-left: 2.5%;
-	
 	}
 
 
