@@ -1,0 +1,429 @@
+* {
+	box-sizing: border-box;
+}
+
+/*Home*/
+
+body {
+
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 16px;
+	background-image: url('../images/bg.png');
+	max-width: 100%;
+	background-repeat: repeat-x;
+}
+
+h2 {
+	font-family: 'Montserrat', Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+p {
+	line-height: 24px;
+	
+} 
+.container {
+ 	width: 1080px;
+ 	max-width: 100%;
+ 	margin-bottom: 60px;
+ 	margin:0 auto;
+ }
+
+header {
+	width: 100%;
+	height: 650px;	
+}
+
+header#shop {
+	height: 200px;
+}
+
+nav {
+	width: 100%;
+	height: 200px;
+}
+
+img {
+	max-width: 100%;
+}
+
+#logo {
+	margin-left: 461px;
+	margin-right: 461px;
+	width: 158px;
+	height: 158px;
+	background-image: url('../images/logo.png');
+}
+
+ul#topnav {
+	text-align: center;
+	font-family: 'Montserrat', Futura, "Trebuchet MS", Arial, sans-serif;
+	padding:0;
+}
+
+ul#topnav li {
+	display: inline;
+
+}
+
+ul#topnav li a {
+	color: #000;
+	text-decoration: none;
+	padding: 70px;
+}
+
+ul#topnav li a:hover {
+	color: #d3d3d3;
+	
+}
+
+footer#center p  {
+ 	float:left;
+ 	padding-left: 461px;
+ }
+
+footer {
+	width: 100%;
+	float:left;
+	text-align: center;
+	background-color: #fff;
+	color:#d3d3d3;
+}
+
+.instagram {
+	float:right;
+	padding:10px;
+}
+
+.twitter {
+	float:right;
+	padding:10px;
+}
+
+.subNav {
+	width: 351px;
+	height: 379px;
+	border-radius: 10px;
+	background-color: #d3d3d3;
+	margin-left:8px;
+	padding-bottom:;
+	float: left;
+}
+
+.gallery {
+	float:left;
+	padding-right: 5px;
+
+}
+
+.gallery img {
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+
+.gallery img:hover {
+	opacity:1.0;
+	filter:alpha(opacity=100);
+}
+
+
+/*mobile breakpoints*/
+@media screen and (min-width: 480px) and (max-width: 900px) {
+
+	ul#topnav li a {
+		color: #000;
+		text-decoration: none;
+		padding: 20px;
+	}
+
+	#logo {
+		margin-left: 40%;
+		margin-right: 45%;
+		width: 158px;
+		height: 158px;
+		background-image: url('../images/logo.png');
+	}
+
+	header {
+		height:30%;
+	}
+
+	footer#center p  {
+ 		padding-left: 361px;
+
+ 	}
+
+	#pic1 {
+		width: 63.5%;
+		height: 63.5%;
+	
+
+	}
+
+	#pic2 {
+		width: 36.5%;
+		height: 36.5%;
+		
+
+	}
+	
+	#pic3 {
+		width: 36.5%;
+		height: 36.5%;
+		float:right;
+	
+	}
+	
+	#pic4 {
+		width: 63.5%;
+		height: 63.5%;
+		float:right;
+		
+	}
+	
+	#pic5 {
+		width: 44.5%;
+		height: 44.5%;
+	
+	}
+	
+	#pic6 {
+		width: 55.5%;
+		height: 55.5%;
+	
+	}
+
+	#gallery1 {
+		width: 58.5%;
+		height: 58.5%;
+	
+
+	}
+
+	#gallery2 {
+		width: 41.5%;
+		height: 41.5%;
+		
+
+	}
+	
+	#gallery3 {
+		width: 50%;
+		height: 50%;
+	
+	}
+	
+	#gallery4 {
+		width: 50%;
+		height: 50%;
+		
+	}
+	
+	#gallery5 {
+		width: 100%;
+		height: 100%;
+	
+	}
+	
+	#gallery6 {
+		width: 35%;
+		height: 35%;
+	
+	}
+	
+	#gallery7 {
+		width: 65%;
+		height: 65%;
+	
+	}
+
+	#gallery8 {
+		width: 100%;
+		height: 100%;
+	
+	}
+	
+	#gallery9 {
+		width: 53%;
+		height: 53%;
+		
+	}
+	
+	#gallery10 {
+		width: 47%;
+		height: 47%;
+		
+	}
+
+	.subNav {
+		max-width: 30%;
+		height: 10%;
+		border-radius: 10px;
+		background-color: #d3d3d3;
+		margin-top: 40%;
+		margin-bottom: 10%;
+		margin-left: 2.5%;
+	
+	}
+
+
+
+	footer {
+		width: 100%;
+		float:right;
+		text-align: center;
+		background-color: #fff;
+		color:#d3d3d3;
+	}
+	
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+	ul#topnav li a {
+		color: #000;
+		text-decoration: none;
+		padding: 10px;
+		
+	}
+
+	#logo {
+		margin-left: 33%;
+		margin-right: 50%;
+		
+	}
+
+	header {
+		height:30%;
+	}
+
+	footer p {
+		display:none;
+		
+	}
+
+	#pic1 {
+		width: 63.5%;
+		height: 63.5%;
+	
+	}
+
+	#pic2 {
+		width: 36.5%;
+		height: 36.5%;
+		
+
+	}
+	
+	#pic3 {
+		width: 36.5%;
+		height: 36.5%;
+		float:right;
+	
+	}
+	
+	#pic4 {
+		width: 63.5%;
+		height: 63.5%;
+		float:right;
+		
+	}
+	
+	#pic5 {
+		width: 44.5%;
+		height: 44.5%;
+	
+	}
+	
+	#pic6 {
+		width: 55.5%;
+		height: 55.5%;
+	
+	}
+
+	#gallery1 {
+		width: 58.5%;
+		height: 58.5%;
+
+
+	}
+
+	#gallery2 {
+		width: 41.5%;
+		height: 41.5%;
+		
+
+	}
+	
+	#gallery3 {
+		width: 50%;
+		height: 50%;
+	
+	}
+	
+	#gallery4 {
+		width: 50%;
+		height: 50%;
+		
+	}
+	
+	#gallery5 {
+		width: 100%;
+		height: 100%;
+	
+	}
+	
+	#gallery6 {
+		width: 35%;
+		height: 35%;
+	
+	}
+	
+	#gallery7 {
+		width: 65%;
+		height: 65%;
+	
+	}
+
+	#gallery8 {
+		width: 100%;
+		height: 100%;
+	
+	}
+	
+	#gallery9 {
+		width: 53%;
+		height: 53%;
+		
+	}
+	
+	#gallery10 {
+		width: 47%;
+		height: 47%;
+		
+	}
+
+	.subNav {
+		max-width: 30%;
+		height: 10%;
+		border-radius: 10px;
+		background-color: #d3d3d3;
+		margin-top: 40%;
+		margin-bottom: 10%;
+		margin-left: 2.5%;
+	
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
